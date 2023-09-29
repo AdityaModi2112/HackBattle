@@ -1,0 +1,54 @@
+body{
+    height:600px;
+    margin:0;
+    padding:0;
+    transition:0.3s all ease-in-out;
+    background:url('regpic.png') no-repeat center center/cover;
+}
+.whole{
+    margin-top: 150px;
+}
+.a1{
+    padding-bottom:40px;
+}
+.part1{
+    width:50%;
+    margin-bottom:20px;
+    margin-left:100px;
+}
+input[type="text"],input[type="password"]{
+    border:none;
+    border-bottom:1px solid #fff;
+    outline:none;
+    height:40px;
+    width:400px;
+    color:black;
+    font-size:16px;
+    border:2px solid black;
+    border-radius:20px;
+    text-align: center;
+    padding:10px;
+}
+input[type="submit"]{
+    border:none;
+    background:#0073FA;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:18px;
+    border-radius:20px;
+}
+input[type="submit"]:hover{
+    cursor:pointer;
+    background:#ffc107;
+    color:#000;
+}
+a{
+    text-decoration:none;
+    font-size:18px;
+    line-height:20px;
+    color:darkgrey;
+}
+a:hover{
+    color:#ffc107;
+}

@@ -1,0 +1,80 @@
+body{
+    height:600px;
+    margin:0;
+    padding:0;
+    transition:0.3s all ease-in-out;
+    background:url('regpic.png') no-repeat center center/cover;
+}
+.login-box{
+    width:700px;
+    height:300px;
+    background:#A5E5FF;
+    color:darkgrey;
+    top:50%;
+    left:50%;
+    position:fixed;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding:50px 35px;
+    border-radius: 43px 43px 43px 43px;
+}
+form{
+    padding:10px;
+}
+.a1{
+    padding:5px;
+    margin:0px;
+}
+.a2 {
+    padding:5px;
+}
+.a3{
+    padding:5px;
+}
+h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align:center;
+    font-size:22px;
+}
+.login-box p{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+}
+.login-box input{
+    width:100%;
+    margin-bottom:20px;
+}
+.login-box input[type="text"],input[type="password"]{
+    border:none;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    outline:none;
+    height:40px;
+    color:darkgray;
+    font-size:16px;
+}
+.login-box input[type="submit"]{
+    border:none;
+    background:#0073FA;
+    outline:none;
+    height:40px;
+    color:#fff;
+    font-size:18px;
+    border-radius:20px;
+}
+.login-box input[type="submit"]:hover{
+    cursor:pointer;
+    background:#ffc107;
+    color:#000;
+}
+.login-box a{
+    text-decoration:none;
+    font-size:18px;
+    line-height:20px;
+    color:darkgrey;
+}
+.login-box a:hover{
+    color:#ffc107;
+}
